@@ -12,5 +12,5 @@ fi
 dirpath=$(dirname ${filepath})
 
 mkdir -p ${dirpath}
-  
+     
 echo ${filecontent} > ${filepath}
