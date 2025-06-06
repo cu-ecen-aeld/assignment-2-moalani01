@@ -22,5 +22,4 @@ num_files=$(find ${filesdir} -type f | wc -l)
 # to show only matching lines and supress errors
 num_matching_lines=$(grep -r ${searchstr} ${filesdir} 2>/dev/null | wc -l)
 
-
 echo "The number of files are ${num_files} and the number of matching lines are ${num_matching_lines}"
