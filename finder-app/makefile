@@ -1,7 +1,7 @@
 CC := $(CROSS_COMPILE)gcc
 
 TARGET := writer
-SRC := finder-app/writer.c
+SRC := writer.c
 OBJ := writer.o
 
 all: $(TARGET)
